@@ -16,11 +16,11 @@ car_model=st.number_input('**Car Model:**')
 car_year=st.number_input('**Year**')
 car_mileage=st.number_input('**Mileage**')
 car_doors=st.number_input('**Number of Doors**')
-car_owner=st.number_input('Number of owners')
-car_Fuel_Type_Diesel=st.number_input('**Type of fuel Diesel Yes:1 No:0')
-car_Fuel_Type_Electric=st.number_input('**Type of fuel Electric Yes:1 No:0')
-car_Fuel_Type_Hybrid=st.number_input('**Type of fuel Hybrid Yes:1 No:0')
-car_Fuel_Type_Petrol=st.number_input('**Type of fuel Petrol Yes:1 No:0')
+car_owner=st.number_input('**Number of owners**')
+car_Fuel_Type_Diesel=st.number_input('**Type of fuel Diesel** Yes:1 No:0')
+car_Fuel_Type_Electric=st.number_input('**Type of fuel Electric** Yes:1 No:0')
+car_Fuel_Type_Hybrid=st.number_input('**Type of fuel Hybrid** Yes:1 No:0')
+car_Fuel_Type_Petrol=st.number_input('**Type of fuel Petrol** Yes:1 No:0')
 
 
 #with this code we can request the input but we need to convert those inputs into dataframes
