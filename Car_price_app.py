@@ -7,9 +7,8 @@ st.title('Car Price Prediction')
 st.write('This web app predicts **Car Price** based in some references, please select the correct option.')
 
 #to read the model from the pickle file
-with open('model_lr_cp_c0922989.pkl', 'rb') as file:
+with open('car_price_pred.pkl', 'rb') as file:
     model_cp = pickle.load(file)
-#model_cp=pickle.load(open('model_lr_cp_c0922989.pkl','rb'))
 
 #get the input from the users
 car_brand=st.number_input('**Select the brand:** Kia:0, Chevrolet:1, Mercedes:2, Audi:3, Volkswagen:4, Toyota:5, Honda:6, BMW:7, Hyundai:8, Ford:9')
